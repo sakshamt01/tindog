@@ -43,6 +43,11 @@ body {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color:white;
 }
 
 
@@ -69,3 +74,35 @@ body {
     transform: rotate(25deg);
 }
 
+
+
+/* Features Section */
+
+#features {
+    padding: 20px;
+    margin: 100px 30px 80px 30px;
+    text-align: center;
+}
+
+
+#features h3 {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px 10px 2px 10px ;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+
+.fa-solid {
+    color: #ef8172;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
