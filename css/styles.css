@@ -1,6 +1,7 @@
 #title {
     background-color: #ff4c68;
     color: white;
+    height: 870px;
 }
 
 body {
@@ -79,9 +80,13 @@ body {
 /* Features Section */
 
 #features {
-    padding: 20px;
-    margin: 100px 30px 80px 30px;
+    padding: 7% 15%;
+    
+}
+
+#features .feature-box {
     text-align: center;
+    padding: 3.5%;
 }
 
 
@@ -105,4 +110,62 @@ body {
 
 .fa-solid:hover {
     color: #ff4c68;
+}
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+#testimonials .carousel-item {
+    padding: 7% 15%;
+}
+
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#testimonials .testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press Section */
+
+
+#press {
+    background-color: #ef8172;
+    text-align: center;padding-bottom: 3%;
+} 
+
+#press .press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+/* Pricing Section */
+
+
+#pricing{
+    text-align: center;
+}
+
+
+#pricing .card {
+    margin: 30px 50px 50px;   
 }
