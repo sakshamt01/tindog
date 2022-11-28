@@ -1,7 +1,6 @@
 #title {
     background-color: #ff4c68;
     color: white;
-    height: 870px;
 }
 
 body {
@@ -16,7 +15,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 6% 15%;
 }
 
 
@@ -70,9 +69,11 @@ body {
 
 /* Title Image */
 
-.title-img {
-    width: 60%;
+#title .title-img {
+    /* width: 20%; */
     transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
 }
 
 
@@ -81,7 +82,9 @@ body {
 
 #features {
     padding: 7% 15%;
-    
+    background-color: #fff;
+    position: relative;
+    z-index: auto;
 }
 
 #features .feature-box {
@@ -102,13 +105,13 @@ body {
 }
 
 
-.fa-solid {
+.icon {
     color: #ef8172;
     padding: 10px;
     transition: 0.3s;
 }
 
-.fa-solid:hover {
+.icon:hover {
     color: #ff4c68;
 }
 
@@ -163,9 +166,84 @@ body {
 
 #pricing{
     text-align: center;
+    padding: 100px;
+}
+
+#pricing .pricing-col {
+    padding: 3% 2%;
+}
+
+#pricing .sign-btn {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
-#pricing .card {
-    margin: 30px 50px 50px;   
+@media (max-width: 1028px) {
+     #title .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+
+/* Download Section */
+
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 9%;
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    width: 60%;
+    margin: auto;
+    color: white;
+    padding: 2%;
+}
+
+#cta .btn {
+    margin-right: 3%;
+    font-size: 1.5rem;
+}
+
+#cta i {
+    margin-right: 8px;
+}
+
+
+
+/* Footer Section */
+
+
+#footer {
+    text-align: center;
+    padding: 7%;
+}
+
+#footer i {
+    padding: 2px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: rgb(87, 87, 87);
+    transition: 0.3s;
+}
+
+#footer i:hover {
+    color: black;
+}
+
+#footer p {
+    color: rgb(87, 87, 87);
+    font-size: 1rem;
 }
