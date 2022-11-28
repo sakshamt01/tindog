@@ -169,6 +169,17 @@ body {
     padding: 100px;
 }
 
+#pricing h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+#pricing p {
+    font-size: 1.3rem;
+}
+
 #pricing .pricing-col {
     padding: 3% 2%;
 }
